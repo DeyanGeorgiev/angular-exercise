@@ -106,7 +106,7 @@ export class M2bRestAutocompleteComponent implements OnInit {
     }
     
    
-    this.myForm.value.country = hasCountry ? hasCountry.alpha3Code : 'undefined';
+    this.myForm.value.country = hasCountry ? hasCountry.alpha3Code : null;
 
 
     if (this.myForm.invalid) {
